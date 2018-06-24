@@ -1,3 +1,53 @@
 body {
-  background-color: fuchsia;
+  background-color: rgb(200, 200, 200);
 }
+
+div {
+    border: solid 1px grey;
+    border-radius: 10%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Times', sans-serif;
+    color: rgb(75,0,75);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(80,0,80);
+    text-align: center;
+}
+
+p {
+    
+    font-family: 'Arial', sans-serif;
+    color: rgb(85,0,85);
+}
+
+#header {
+    width: 700px;
+    height: 50px;
+    margin: 20px auto 20px auto;
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+}
+
+#article {
+    width: 700px;
+    margin: 20px auto 20px auto;
+}
+
+#footer {
+    width: 700px;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
